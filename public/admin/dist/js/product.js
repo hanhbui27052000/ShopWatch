@@ -1,0 +1,1 @@
+$('#lfm_product').filemanager('image');

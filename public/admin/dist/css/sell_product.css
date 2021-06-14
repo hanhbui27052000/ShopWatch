@@ -1,0 +1,108 @@
+/* Background color classes */
+
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.bg-lblue {
+    background-color: #212529 !important;
+}
+
+
+/* Button classes */
+
+.btn {
+    border-radius: 2px;
+    position: relative;
+}
+
+.shop-items {
+    max-width: 1150px;
+    margin: 10px auto;
+    padding: 0px 20px;
+    background: #EAEAEA;
+}
+
+.shop-items .item {
+    position: relative;
+    max-width: 360px;
+    margin: 15px auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 2px solid #eee;
+}
+
+.shop-items .item:hover {
+    border: 2px solid #212529;
+}
+
+.shop-items .item img {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.shop-items .item .item-dtls .price {
+    color: #FE980F;
+    margin-bottom: 0px;
+}
+
+.shop-items .item .item-dtls .productName {
+    color: #C60000;
+}
+
+.shop-items .item .item-dtls .priceDiscount {
+    color: #FE980F;
+    margin-bottom: 0px;
+}
+
+.shop-items .item .item-dtls .productPrice {
+    color: #FE980F;
+    margin-bottom: 0px;
+    text-decoration-line: line-through;
+    display: inline-block;
+}
+
+.shop-items .item .item-dtls .discount {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.shop-items .item .ecom {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in;
+}
+
+.shop-items .item:hover .ecom {
+    margin-top: -50px;
+}
+
+.shop-items .item .ecom a.btn {
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in;
+}
+
+.shop-items .item .ecom a.btn:hover {
+    background: #fff;
+    color: #777;
+}
